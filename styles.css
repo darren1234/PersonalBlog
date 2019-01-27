@@ -50,11 +50,15 @@ body {
 
 #footer-navbar ul{
     text-align: center;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
 }
 
 #footer-navbar li {
     display: inline-block;
     list-style: none;
+    font-size: 18px;
     padding: 0 10px 0 10px;
 }
 
