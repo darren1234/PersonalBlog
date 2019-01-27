@@ -1,0 +1,53 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:white;
+}
+
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar li {
+    display: block;
+    list-style: none;
+    float: right;
+}
+
+#navbar a {
+    display: block; /*make area clickable*/
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+#navbar a:hover {
+    background-color: rgb(55, 46, 90);
+    color: white;
+}
+
+#footer-navbar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+}
+
+#footer-navbar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline;
+    text-align: center;
+}
+
+#footer-navbar li {
+    display: block;
+    list-style: none;
+}
