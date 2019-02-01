@@ -76,6 +76,7 @@ body {
     top: 35px;
     bottom: 35px;
     background-color: aquamarine;
+    overflow-y: auto;  /*make this section scrollable*/
 }
 
 #blog-entry {
